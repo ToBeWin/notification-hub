@@ -1,0 +1,15 @@
+{
+  "id": "notification-hub",
+  "name": "Notification Hub",
+  "description": "Unified notification center for OpenClaw",
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "quietHoursEnabled": {
+        "type": "boolean",
+        "default": false
+      }
+    }
+  }
+}
