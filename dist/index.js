@@ -144,7 +144,7 @@ export default definePluginEntry({
         }, { name: "notification-hub.onToolCall" });
         // Service: Check reminders
         api.registerService({
-            name: "reminder-checker",
+            id: "reminder-checker",
             async start() {
                 setInterval(() => {
                     const now = new Date();

@@ -155,7 +155,7 @@ export default definePluginEntry({
 
     // Service: Check reminders
     api.registerService({
-      name: "reminder-checker",
+      id: "reminder-checker",
       async start() {
         setInterval(() => {
           const now = new Date();
