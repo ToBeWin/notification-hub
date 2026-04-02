@@ -1,9 +1,10 @@
 {
   "name": "@tobewin/notification-hub",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "type": "module",
+  "main": "./dist/index.js",
   "openclaw": {
-    "extensions": ["./index.ts"],
+    "extensions": ["./dist/index.js"],
     "compat": {
       "pluginApi": ">=2026.3.24-beta.2",
       "minGatewayVersion": "2026.3.24-beta.2"
